@@ -1,3 +1,9 @@
+#### T Statistic is a test statistic that helps deciding whether to reject or do not reject null hypothesis.
+#### Eg: If we can reject null hypothesis Ho : B = 0, then we can surely say that income does have an effect on consumption.
+
+
+## R studio
+
 library(gapminder)
 view(gapminder)
 gapminder %>%

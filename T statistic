@@ -1,0 +1,18 @@
+library(gapminder)
+view(gapminder)
+gapminder %>%
+  filter(continent %in% c("Africa", "Europe")) %>% 
+  t.test(lifeExp ~ continent, data = .)
+
+
+Result:
+Welch Two Sample t-test
+
+data:  lifeExp by continent
+t = -49.551, df = 981.2, p-value < 2.2e-16
+alternative hypothesis: true difference in means between group Africa and group Europe is not equal to 0
+95 percent confidence interval:
+ -23.95076 -22.12595
+sample estimates:
+mean in group Africa mean in group Europe 
+            48.86533             71.90369 

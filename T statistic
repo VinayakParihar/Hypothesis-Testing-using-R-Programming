@@ -4,8 +4,12 @@
 
 ## R studio
 
+library(Tidyverse)
 library(gapminder)
 view(gapminder)
+
+Here we are first filtering the data to extract Africa and Euorope among the continents and then using t.test command to test life expectencies for the given continents.
+
 gapminder %>%
   filter(continent %in% c("Africa", "Europe")) %>% 
   t.test(lifeExp ~ continent, data = .)
@@ -22,3 +26,7 @@ alternative hypothesis: true difference in means between group Africa and group 
 sample estimates:
 mean in group Africa mean in group Europe 
             48.86533             71.90369 
+
+### interpretation 
+##### Her we can compare the calculated t test value with the tabulated one and can also directly see that the p-value < 2.2e-16 is very small which means that the possiblity that our reslut has occured by chance is very low. 
+##### Therefore We can reject null hypothesis and our result is significant

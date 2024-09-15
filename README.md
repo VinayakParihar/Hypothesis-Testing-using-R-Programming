@@ -10,7 +10,7 @@ In simple words it is a guess about a true population parameter and we have to c
 - Eg: Suppose out claim is income has significant impact on consumption . Here our null hupothesis will be set to, Ho = 0
 - It doesnt always have to be Ho = 0 , rather it can be anything that nullifies our claim. A hypothesis that assumes no differece between sample and the population parameter . Eg B' = B
 
-### 2) Alternative Hypothesis
+### 2) Alternative Hypothesis (Ha)
 - It is basically the opposite/alternative of null hypothesis
 - Eg: if Ho = 0 , then Ha:  B not = 0
 

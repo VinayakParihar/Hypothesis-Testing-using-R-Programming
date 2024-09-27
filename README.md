@@ -17,9 +17,9 @@ In simple words it is a guess about a true population parameter and we have to c
 
 
 Hypothesis testing procesure follows like this:-
-Step 1: State your null and alternate hypothesis
-Step 2: Collect data 
+##### Step 1: State your null and alternate hypothesis
+##### Step 2: Collect data 
 or we can test result of an analysis . eg coefficient B after a regression analysis.
-Step 3: Perform a statistical test . Eg T test
-Step 4: Decide whether to reject or fail to reject your null hypothesis. Eg. Compare calculated T test with Tabulated T test values for a given significance value.
-Step 5: Present your findings
+##### Step 3: Perform a statistical test . Eg T test
+##### Step 4: Decide whether to reject or fail to reject your null hypothesis. Eg. Compare calculated T test with Tabulated T test values for a given significance value.
+##### Step 5: Present your findings

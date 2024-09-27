@@ -16,7 +16,7 @@ In simple words it is a guess about a true population parameter and we have to c
 
 
 
-Hypothesis testing procesure follows like this:-
+### Hypothesis testing process follows like this:-
 ##### Step 1: State your null and alternate hypothesis
 ##### Step 2: Collect data 
 or we can test result of an analysis . eg coefficient B after a regression analysis.
